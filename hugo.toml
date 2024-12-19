@@ -1,0 +1,88 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+theme = "binario"
+title = "Sid's Blog"
+
+[services.disqus]
+shortname = "" # Enable Disqus by entering your Disqus shortname
+[services.googleAnalytics]
+ID = "" # Enable Google Analytics by entering your tracking ID
+
+[Params]
+authorbox = true # Show authorbox at bottom of single pages if true
+colorTheme = "" # dark-green, dark-blue, dark-red, dark-violet
+columns = 2 # Set the number of cards columns. Possible values: 1, 2, 3
+comments = true # Enable comments for all site pages
+copyright = "Sid" # Copyright holder, otherwise will use .Site.Title
+customCSS = ["css/custom.css"] # Include custom CSS files        
+customJS = ["js/custom.js"] # Include custom JS files        
+dateFormat = "January 02, 2006" # Change the format of dates
+description = "Responsive card-based & code-light Hugo theme" # Site Description. Used in meta description
+hideNoPostsWarning = false # Don't show no posts empty state warning in main page, if true
+mainMenuAlignment = "right" # Align main menu (desktop version) to the right side
+mainSections = ["posts"] # Set main page sections        
+mathjax = true # Enable MathJax for all site pages
+mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config. Optional
+mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path. Optional
+opengraph = true # Enable OpenGraph if true
+related = true # Enable Related content for single pages
+relatedMax = 5 # Set the maximum number of elements that can be displayed in related block. Optional
+schema = true # Enable Schema
+twitter_cards = true # Enable Twitter Cards if true
+
+[Params.Author] # Used in authorbox
+avatar = "img/avatar.png"
+bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer."
+name = "Sid"
+
+[Params.Entry]
+meta = ["date", "categories", "tags"] # Enable meta fields in given order        
+toc = true # Enable Table of Contents
+tocOpen = true # Open Table of Contents block. Optional
+
+[Params.Featured]
+previewOnly = false # Show only preview featured image
+
+[Params.Breadcrumb]
+enable = true # Enable breadcrumb block globally
+homeText = "Binario" # Home node text
+
+[Params.Social]
+bluesky = "fff"
+email = "sid@thefossrant.com"
+github = "sidgames5"
+mastodon = "https://mastodon.social/@sidgames5"
+
+[Params.Share] # Entry Share block
+facebook = true
+linkedin = true
+pinterest = true
+pocket = true
+reddit = true
+telegram = true
+twitter = true
+vk = true
+
+# Web App Manifest settings
+# https://www.w3.org/TR/appmanifest/
+# https://developers.google.com/web/fundamentals/web-app-manifest/
+[Params.Manifest]
+backgroundColor = "#2a2a2a"
+description = "Responsive card-based & code-light Hugo theme"
+display = "browser"
+name = "Binario"
+orientation = "portrait"
+scope = "/"
+shortName = "Binario"
+startUrl = "/"
+themeColor = "#1b1b1b"
+
+[outputFormats]
+[outputFormats.MANIFEST]
+baseName = "manifest"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[outputs]
+home = ["HTML", "RSS", "MANIFEST"]

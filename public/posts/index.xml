@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Sid&#39;s Blog</title>
+    <link>https://example.org/posts/</link>
+    <description>Recent content in Posts on Sid&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My New Blog</title>
+      <link>https://example.org/posts/my-new-blog/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/my-new-blog/</guid>
+      <description>&lt;p&gt;It feels like this is the millionth time I made a new blog. My previous blog was really bad. I had to write blog posts inside a JSON file. Nothing at all was automated.&lt;/p&gt;&#xA;&lt;p&gt;Recently I started using Obsidian to take notes. It&amp;rsquo;s just a markdown editor but with a fancy UI and some more features. Then one day I realized I could write my blog posts in Obsidian and have them automatically pushed to my website.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
