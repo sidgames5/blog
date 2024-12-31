@@ -7,6 +7,7 @@
             <h2 class="entry-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
         </header>
         <div class="entry-content">
+            {{ .Date | time.Format ":date_long" }}
             {{ .Summary | truncate 250 }}
             {{ if .Truncated }}
             <p><a href="{{ .RelPermalink }}">Read More</a></p>
