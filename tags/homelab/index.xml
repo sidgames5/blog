@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homelab on Sid&#39;s Blog</title>
+    <link>https://blog.thefossrant.com/tags/homelab/</link>
+    <description>Recent content in Homelab on Sid&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.thefossrant.com/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My homelab had the stupidest outage ever</title>
+      <link>https://blog.thefossrant.com/posts/6.-my-homelab-had-the-stupidest-outage-ever/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/posts/6.-my-homelab-had-the-stupidest-outage-ever/</guid>
+      <description>&lt;p&gt;This morning I woke up to my phone using mobile data and my home assistant automations not working. Initially I thought it the power was out, but I could turn on the lights just fine. I checked my UniFi app and saw that the server was not connected to the network at all. This meant that the cable got unplugged, the switch isn&amp;rsquo;t working, or the server isn&amp;rsquo;t working. It said the switch was connected and another device was connected to the switch so that narrows it down to just 2 cases. So I opened my server closet in the basement and immediately noticed something was wrong. I couldn&amp;rsquo;t figure out what was wrong but I just felt like something was wrong. Everything was plugged in, the network switch lights were blinking like normal, my raspberry pi was running just fine, even the server indicator lights were on. My main server is an old gaming PC so it has a glass side panel so I looked inside and I could see the fan spinning, but I could not hear it. Usually I have it set to full speed and I can hear full speed very well. I tried rebooting the server with the power button and the fans didn&amp;rsquo;t go to full speed. As a last resort, I brought down a keyboard and monitor. As soon as I plugged in the monitor, I saw that there was a prompt to set the time on the BIOS!&lt;br&gt;&#xA;![[Pasted image 20241231092052.png]]&#xA;In my opinion, this was the stupidest reason for an outage.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

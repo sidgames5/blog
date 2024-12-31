@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai on Sid&#39;s Blog</title>
+    <link>https://blog.thefossrant.com/tags/ai/</link>
+    <description>Recent content in Ai on Sid&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.thefossrant.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Roast your developer portfolio</title>
+      <link>https://blog.thefossrant.com/posts/7.-roast-your-developer-portfolio/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/posts/7.-roast-your-developer-portfolio/</guid>
+      <description>&lt;p&gt;I have just made yet another website! This one is inspired by &lt;a href=&#34;https://github-roast.pages.dev/&#34;&gt;codenoid/github-roast&lt;/a&gt;. Basically you just input a link to your portfolio site and it roasts it. Once you roast it, make sure to post it to Mastodon and Twitter with the &lt;a href=&#34;https://mastodon.social/tags/devportfolioroast&#34;&gt;#devportfolioroast&lt;/a&gt; hashtag.&lt;br&gt;&#xA;The front-end was written in HTML, CSS, and JS and the backend fully in Python. Once you input the URL, the backend will send a request to the Gemma:2B model from Google using Ollama. It will then send the roast back to the browser and display it. The site is super simple.&lt;br&gt;&#xA;Now it is time for you to go and roast your portfolio: &lt;a href=&#34;https://portfolio-roast.thefossrant.com/&#34;&gt;https://portfolio-roast.thefossrant.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
