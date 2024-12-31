@@ -63,7 +63,48 @@ Now it is time for you to go and roast your portfolio: <a href="https://portfol
 					</div>
 					<div class="card card--2col">
 					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/posts/blog_posts/7.-roast-your-developer-portfolio/">Roast your developer portfolio</a></h1>
+	<div class="entry__content"><p>I have just made yet another website! This one is inspired by <a href="https://github-roast.pages.dev/">codenoid/github-roast</a>. Basically you just input a link to your portfolio site and it roasts it. Once you roast it, make sure to post it to Mastodon and Twitter with the <a href="https://mastodon.social/tags/devportfolioroast">#devportfolioroast</a> hashtag.<br>
+The front-end was written in HTML, CSS, and JS and the backend fully in Python. Once you input the URL, the backend will send a request to the Gemma:2B model from Google using Ollama. It will then send the roast back to the browser and display it. The site is super simple.<br>
+Now it is time for you to go and roast your portfolio: <a href="https://portfolio-roast.thefossrant.com/">https://portfolio-roast.thefossrant.com</a></p></div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2024-08-14T00:00:00Z">August 14, 2024</time>
+<div class="entry__meta-tags meta-tags">
+	<span class="meta-tags__list">Tags:
+		<a class="meta-tags__link" href="/tags/website/" rel="tag">website</a>, 
+		<a class="meta-tags__link" href="/tags/python/" rel="tag">python</a>, 
+		<a class="meta-tags__link" href="/tags/html/" rel="tag">html</a>, 
+		<a class="meta-tags__link" href="/tags/js/" rel="tag">js</a>, 
+		<a class="meta-tags__link" href="/tags/ai/" rel="tag">ai</a>
+	</span>
+</div>
+	</div>
+</article>
+					</div>
+					<div class="card card--2col">
+					<article class="entry card__box block">
 	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/posts/6.-my-homelab-had-the-stupidest-outage-ever/">My homelab had the stupidest outage ever</a></h1>
+	<div class="entry__content"><p>This morning I woke up to my phone using mobile data and my home assistant automations not working. Initially I thought it the power was out, but I could turn on the lights just fine. I checked my UniFi app and saw that the server was not connected to the network at all. This meant that the cable got unplugged, the switch isn&rsquo;t working, or the server isn&rsquo;t working. It said the switch was connected and another device was connected to the switch so that narrows it down to just 2 cases. So I opened my server closet in the basement and immediately noticed something was wrong. I couldn&rsquo;t figure out what was wrong but I just felt like something was wrong. Everything was plugged in, the network switch lights were blinking like normal, my raspberry pi was running just fine, even the server indicator lights were on. My main server is an old gaming PC so it has a glass side panel so I looked inside and I could see the fan spinning, but I could not hear it. Usually I have it set to full speed and I can hear full speed very well. I tried rebooting the server with the power button and the fans didn&rsquo;t go to full speed. As a last resort, I brought down a keyboard and monitor. As soon as I plugged in the monitor, I saw that there was a prompt to set the time on the BIOS!<br>
+<img src="/images/Pasted%20image%2020241231092052.png" alt="Image Description">
+In my opinion, this was the stupidest reason for an outage.</p></div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2024-08-04T00:00:00Z">August 04, 2024</time>
+<div class="entry__meta-tags meta-tags">
+	<span class="meta-tags__list">Tags:
+		<a class="meta-tags__link" href="/tags/homelab/" rel="tag">homelab</a>, 
+		<a class="meta-tags__link" href="/tags/server/" rel="tag">server</a>, 
+		<a class="meta-tags__link" href="/tags/linux/" rel="tag">linux</a>, 
+		<a class="meta-tags__link" href="/tags/ubunti/" rel="tag">ubunti</a>, 
+		<a class="meta-tags__link" href="/tags/bios/" rel="tag">bios</a>, 
+		<a class="meta-tags__link" href="/tags/uefi/" rel="tag">uefi</a>
+	</span>
+</div>
+	</div>
+</article>
+					</div>
+					<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/posts/blog_posts/6.-my-homelab-had-the-stupidest-outage-ever/">My homelab had the stupidest outage ever</a></h1>
 	<div class="entry__content"><p>This morning I woke up to my phone using mobile data and my home assistant automations not working. Initially I thought it the power was out, but I could turn on the lights just fine. I checked my UniFi app and saw that the server was not connected to the network at all. This meant that the cable got unplugged, the switch isn&rsquo;t working, or the server isn&rsquo;t working. It said the switch was connected and another device was connected to the switch so that narrows it down to just 2 cases. So I opened my server closet in the basement and immediately noticed something was wrong. I couldn&rsquo;t figure out what was wrong but I just felt like something was wrong. Everything was plugged in, the network switch lights were blinking like normal, my raspberry pi was running just fine, even the server indicator lights were on. My main server is an old gaming PC so it has a glass side panel so I looked inside and I could see the fan spinning, but I could not hear it. Usually I have it set to full speed and I can hear full speed very well. I tried rebooting the server with the power button and the fans didn&rsquo;t go to full speed. As a last resort, I brought down a keyboard and monitor. As soon as I plugged in the monitor, I saw that there was a prompt to set the time on the BIOS!<br>
 ![[Pasted image 20241231092052.png]]
 In my opinion, this was the stupidest reason for an outage.</p></div>
@@ -99,7 +140,37 @@ In my opinion, this was the stupidest reason for an outage.</p></div>
 					</div>
 					<div class="card card--2col">
 					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/posts/blog_posts/5.-i-rewrote-my-blog-site/">I rewrote my blog site</a></h1>
+	<div class="entry__content"><p>So I recently added RSS feeds to my blog and that means I would have to edit 3 files to create a blog post. That&rsquo;s ridiculous! So I made a new blog site in PHP. All of the data comes in from the RSS feed, meaning I only have to edit 1 file. In the future, I will probably create a program which automatically formats the XML and stuff so I only need to worry about typing the article. I considered automatically generating a summary using AI but it didn&rsquo;t work out so well. In the future when AI improves, I might do that. The site is hosted on domino server (one of my 2 servers) using Apache in a docker container and is then proxied through Caddy which generates the SSL certificate. As of right now Caddy is running on a raspberry pi so if the site grows in popularity I might have to scale things up. There are still a couple things I need to add to the website but for now it is in great shape!</p></div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2024-08-02T00:00:00Z">August 02, 2024</time>
+<div class="entry__meta-tags meta-tags">
+	<span class="meta-tags__list">Tags:
+		<a class="meta-tags__link" href="/tags/php/" rel="tag">php</a>, 
+		<a class="meta-tags__link" href="/tags/programming/" rel="tag">programming</a>
+	</span>
+</div>
+	</div>
+</article>
+					</div>
+					<div class="card card--2col">
+					<article class="entry card__box block">
 	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/posts/4.-rss-feeds-are-now-available-on-my-blog/">RSS feeds are now available on my blog</a></h1>
+	<div class="entry__content"><p>I have created an RSS feed for my blog! This means you can now view my posts in your preferred RSS reader.</p>
+<p>As of right now, I am still manually creating articles with HTML and manually adding them to the RSS feed. I am looking into solutions for this to make the process more streamlined. Stay tuned for more!</p></div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2024-08-02T00:00:00Z">August 02, 2024</time>
+<div class="entry__meta-tags meta-tags">
+	<span class="meta-tags__list">Tags:
+		<a class="meta-tags__link" href="/tags/rss/" rel="tag">rss</a>
+	</span>
+</div>
+	</div>
+</article>
+					</div>
+					<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/posts/blog_posts/4.-rss-feeds-are-now-available-on-my-blog/">RSS feeds are now available on my blog</a></h1>
 	<div class="entry__content"><p>I have created an RSS feed for my blog! This means you can now view my posts in your preferred RSS reader.</p>
 <p>As of right now, I am still manually creating articles with HTML and manually adding them to the RSS feed. I am looking into solutions for this to make the process more streamlined. Stay tuned for more!</p></div>
 	<div class="entry__meta meta mt tar">
@@ -124,26 +195,21 @@ In my opinion, this was the stupidest reason for an outage.</p></div>
 					</div>
 					<div class="card card--2col">
 					<article class="entry card__box block">
-	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/posts/2.-my-experience-with-unifi/">My experience with UniFi</a></h1>
-	<div class="entry__content"><p>A few months ago I purchased a UniFi Dream Router after experiencing problems with my ISP-provided router. And now I can&rsquo;t go back. I have tried 2 different ISP routers as well as a couple &ldquo;gaming&rdquo; routers. The difference between your router and the UniFi Dream Router is that UniFi makes enterprise hardware. They managed to pack all of the enterprise features from their super expensive rackmount hardware into a small $200 device. You might be wondering what the difference is between a residential and enterprise router. The main thing is reliability. With the dream router, I have had zero down time not related to power outages.</p></div>
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/posts/blog_posts/3.-i-made-a-voice-assistant/">I made a voice assistant</a></h1>
+	<div class="entry__content"><p>I have just released the first version of my voice assistant Excalibur! It is an alternative to voice assistants like Google and Alexa but privacy focused. You can download it on github.</p>
+<p>The voice assistant is written completely in python. It uses Vosk for speech recognition and Ollama for AI processing. It currently has the ability to answer questions, give you the time, and give you the weather. It works by detecting words in your prompt like &ldquo;weather&rdquo; and &ldquo;time&rdquo; and gives you a result based on that. If none of the trigger words are detected, it hands off the prompt to the AI which will try its best to generate an answer.</p></div>
 	<div class="entry__meta meta mt tar">
-	<time class="entry__meta-published meta-published" datetime="2024-03-13T00:00:00Z">March 13, 2024</time>
-	</div>
-</article>
-					</div>
-					<div class="card card--2col">
-					<article class="entry card__box block">
-	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/posts/1.-welcome-to-my-blog/">Welcome to my blog!</a></h1>
-	<div class="entry__content"><p>I now have a blog where I can post stuff to. All of these blog posts will be sent to mastodon if you would like to receive notifications when I make a post. My page is @sidgames5@mastodon.social.</p>
-<p>I wrote this blog page entirely with HTML and CSS meaning you can disable JavaScript and still be able to read my posts. That does make it slightly more inconvenient for me to make posts, but you won&rsquo;t have to use JavaScript and the page will load a bit faster. Unfortunately there is no RSS feed yet.</p></div>
-	<div class="entry__meta meta mt tar">
-	<time class="entry__meta-published meta-published" datetime="2024-03-10T00:00:00Z">March 10, 2024</time>
+	<time class="entry__meta-published meta-published" datetime="2024-03-22T00:00:00Z">March 22, 2024</time>
 	</div>
 </article>
 					</div>
 			</div>
 	</main>
 	
+<div class="pagination block">
+				<span class="pagination__item pagination__item--active" data-total="2">1</span>
+				<a class="pagination__item pagination__item--desktop" href="/page/2/">2</a>
+</div>
 
 	</div>
 	<footer class="footer">
