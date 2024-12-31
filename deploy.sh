@@ -5,9 +5,9 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 # Path to your notes
-sourcePath="/home/sid/Notes/blog_posts"
+sourcePath="/home/sid/Notes/blog_posts/"
 # Path to your Hugo posts
-destinationPath="/home/sid/Code/sidblog/content/posts"
+destinationPath="/home/sid/Code/sidblog/content/posts/"
 
 echo "[1/5] Copying notes"
 rsync -av --delete "$sourcePath" "$destinationPath"

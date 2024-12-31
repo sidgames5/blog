@@ -15,12 +15,5 @@
       <guid>https://blog.thefossrant.com/posts/4.-rss-feeds-are-now-available-on-my-blog/</guid>
       <description>&lt;p&gt;I have created an RSS feed for my blog! This means you can now view my posts in your preferred RSS reader.&lt;/p&gt;&#xA;&lt;p&gt;As of right now, I am still manually creating articles with HTML and manually adding them to the RSS feed. I am looking into solutions for this to make the process more streamlined. Stay tuned for more!&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>RSS feeds are now available on my blog</title>
-      <link>https://blog.thefossrant.com/posts/blog_posts/4.-rss-feeds-are-now-available-on-my-blog/</link>
-      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.thefossrant.com/posts/blog_posts/4.-rss-feeds-are-now-available-on-my-blog/</guid>
-      <description>&lt;p&gt;I have created an RSS feed for my blog! This means you can now view my posts in your preferred RSS reader.&lt;/p&gt;&#xA;&lt;p&gt;As of right now, I am still manually creating articles with HTML and manually adding them to the RSS feed. I am looking into solutions for this to make the process more streamlined. Stay tuned for more!&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
