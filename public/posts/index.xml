@@ -2,11 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Sid&#39;s Blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://blog.thefossrant.com/posts/</link>
     <description>Recent content in Posts on Sid&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.thefossrant.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Roast your developer portfolio</title>
+      <link>https://blog.thefossrant.com/posts/7.-roast-your-developer-portfolio/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/posts/7.-roast-your-developer-portfolio/</guid>
+      <description>&lt;p&gt;I have just made yet another website! This one is inspired by &lt;a href=&#34;https://github-roast.pages.dev/&#34;&gt;codenoid/github-roast&lt;/a&gt;. Basically you just input a link to your portfolio site and it roasts it. Once you roast it, make sure to post it to Mastodon and Twitter with the &lt;a href=&#34;https://mastodon.social/tags/devportfolioroast&#34;&gt;#devportfolioroast&lt;/a&gt; hashtag.&lt;br&gt;&#xA;The front-end was written in HTML, CSS, and JS and the backend fully in Python. Once you input the URL, the backend will send a request to the Gemma:2B model from Google using Ollama. It will then send the roast back to the browser and display it. The site is super simple.&lt;br&gt;&#xA;Now it is time for you to go and roast your portfolio: &lt;a href=&#34;https://portfolio-roast.thefossrant.com/&#34;&gt;https://portfolio-roast.thefossrant.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My homelab had the stupidest outage ever</title>
+      <link>https://blog.thefossrant.com/posts/6.-my-homelab-had-the-stupidest-outage-ever/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/posts/6.-my-homelab-had-the-stupidest-outage-ever/</guid>
+      <description>&lt;p&gt;This morning I woke up to my phone using mobile data and my home assistant automations not working. Initially I thought it the power was out, but I could turn on the lights just fine. I checked my UniFi app and saw that the server was not connected to the network at all. This meant that the cable got unplugged, the switch isn&amp;rsquo;t working, or the server isn&amp;rsquo;t working. It said the switch was connected and another device was connected to the switch so that narrows it down to just 2 cases. So I opened my server closet in the basement and immediately noticed something was wrong. I couldn&amp;rsquo;t figure out what was wrong but I just felt like something was wrong. Everything was plugged in, the network switch lights were blinking like normal, my raspberry pi was running just fine, even the server indicator lights were on. My main server is an old gaming PC so it has a glass side panel so I looked inside and I could see the fan spinning, but I could not hear it. Usually I have it set to full speed and I can hear full speed very well. I tried rebooting the server with the power button and the fans didn&amp;rsquo;t go to full speed. As a last resort, I brought down a keyboard and monitor. As soon as I plugged in the monitor, I saw that there was a prompt to set the time on the BIOS!&lt;br&gt;&#xA;![[Pasted image 20241231092052.png]]&#xA;In my opinion, this was the stupidest reason for an outage.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I rewrote my blog site</title>
+      <link>https://blog.thefossrant.com/posts/5.-i-rewrote-my-blog-site/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/posts/5.-i-rewrote-my-blog-site/</guid>
+      <description>&lt;p&gt;So I recently added RSS feeds to my blog and that means I would have to edit 3 files to create a blog post. That&amp;rsquo;s ridiculous! So I made a new blog site in PHP. All of the data comes in from the RSS feed, meaning I only have to edit 1 file. In the future, I will probably create a program which automatically formats the XML and stuff so I only need to worry about typing the article. I considered automatically generating a summary using AI but it didn&amp;rsquo;t work out so well. In the future when AI improves, I might do that. The site is hosted on domino server (one of my 2 servers) using Apache in a docker container and is then proxied through Caddy which generates the SSL certificate. As of right now Caddy is running on a raspberry pi so if the site grows in popularity I might have to scale things up. There are still a couple things I need to add to the website but for now it is in great shape!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RSS feeds are now available on my blog</title>
+      <link>https://blog.thefossrant.com/posts/4.-rss-feeds-are-now-available-on-my-blog/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/posts/4.-rss-feeds-are-now-available-on-my-blog/</guid>
+      <description>&lt;p&gt;I have created an RSS feed for my blog! This means you can now view my posts in your preferred RSS reader.&lt;/p&gt;&#xA;&lt;p&gt;As of right now, I am still manually creating articles with HTML and manually adding them to the RSS feed. I am looking into solutions for this to make the process more streamlined. Stay tuned for more!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I made a voice assistant</title>
+      <link>https://blog.thefossrant.com/posts/3.-i-made-a-voice-assistant/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/posts/3.-i-made-a-voice-assistant/</guid>
+      <description>&lt;p&gt;I have just released the first version of my voice assistant Excalibur! It is an alternative to voice assistants like Google and Alexa but privacy focused. You can download it on github.&lt;/p&gt;&#xA;&lt;p&gt;The voice assistant is written completely in python. It uses Vosk for speech recognition and Ollama for AI processing. It currently has the ability to answer questions, give you the time, and give you the weather. It works by detecting words in your prompt like &amp;ldquo;weather&amp;rdquo; and &amp;ldquo;time&amp;rdquo; and gives you a result based on that. If none of the trigger words are detected, it hands off the prompt to the AI which will try its best to generate an answer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My experience with UniFi</title>
+      <link>https://blog.thefossrant.com/posts/2.-my-experience-with-unifi/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/posts/2.-my-experience-with-unifi/</guid>
+      <description>&lt;p&gt;A few months ago I purchased a UniFi Dream Router after experiencing problems with my ISP-provided router. And now I can&amp;rsquo;t go back. I have tried 2 different ISP routers as well as a couple &amp;ldquo;gaming&amp;rdquo; routers. The difference between your router and the UniFi Dream Router is that UniFi makes enterprise hardware. They managed to pack all of the enterprise features from their super expensive rackmount hardware into a small $200 device. You might be wondering what the difference is between a residential and enterprise router. The main thing is reliability. With the dream router, I have had zero down time not related to power outages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to my blog!</title>
+      <link>https://blog.thefossrant.com/posts/1.-welcome-to-my-blog/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/posts/1.-welcome-to-my-blog/</guid>
+      <description>&lt;p&gt;I now have a blog where I can post stuff to. All of these blog posts will be sent to mastodon if you would like to receive notifications when I make a post. My page is @sidgames5@mastodon.social.&lt;/p&gt;&#xA;&lt;p&gt;I wrote this blog page entirely with HTML and CSS meaning you can disable JavaScript and still be able to read my posts. That does make it slightly more inconvenient for me to make posts, but you won&amp;rsquo;t have to use JavaScript and the page will load a bit faster. Unfortunately there is no RSS feed yet.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

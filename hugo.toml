@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.thefossrant.com'
 languageCode = 'en-us'
 theme = "binario"
 title = "Sid's Blog"
@@ -14,13 +14,13 @@ colorTheme = "" # dark-green, dark-blue, dark-red, dark-violet
 columns = 2 # Set the number of cards columns. Possible values: 1, 2, 3
 comments = true # Enable comments for all site pages
 copyright = "Sid" # Copyright holder, otherwise will use .Site.Title
-customCSS = ["css/custom.css"] # Include custom CSS files        
-customJS = ["js/custom.js"] # Include custom JS files        
+customCSS = ["css/custom.css"] # Include custom CSS files              
+customJS = ["js/custom.js"] # Include custom JS files              
 dateFormat = "January 02, 2006" # Change the format of dates
 description = "Responsive card-based & code-light Hugo theme" # Site Description. Used in meta description
 hideNoPostsWarning = false # Don't show no posts empty state warning in main page, if true
 mainMenuAlignment = "right" # Align main menu (desktop version) to the right side
-mainSections = ["posts"] # Set main page sections        
+mainSections = ["posts"] # Set main page sections              
 mathjax = true # Enable MathJax for all site pages
 mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config. Optional
 mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path. Optional
@@ -32,11 +32,11 @@ twitter_cards = true # Enable Twitter Cards if true
 
 [Params.Author] # Used in authorbox
 avatar = "img/avatar.png"
-bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer."
+bio = "I am a high school student and open-source developer."
 name = "Sid"
 
 [Params.Entry]
-meta = ["date", "categories", "tags"] # Enable meta fields in given order        
+meta = ["date", "categories", "tags"] # Enable meta fields in given order              
 toc = true # Enable Table of Contents
 tocOpen = true # Open Table of Contents block. Optional
 
@@ -45,10 +45,9 @@ previewOnly = false # Show only preview featured image
 
 [Params.Breadcrumb]
 enable = true # Enable breadcrumb block globally
-homeText = "Binario" # Home node text
+homeText = "Sid" # Home node text
 
 [Params.Social]
-bluesky = "fff"
 email = "sid@thefossrant.com"
 github = "sidgames5"
 mastodon = "https://mastodon.social/@sidgames5"
