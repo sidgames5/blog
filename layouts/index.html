@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main class="content" role="main">
+    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+    {{ range $paginator.Pages }}
+    <article class="entry">
+        <header class="entry-header">
+            <h2 class="entry-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        </header>
+        <div class="entry-content">
+            {{ .Summary | truncate 250 }}
+            {{ if .Truncated }}
+            <p><a href="{{ .RelPermalink }}">Read More</a></p>
+            {{ end }}
+        </div>
+    </article>
+    {{ end }}
+    {{ partial "pagination.html" . }}
+</main>
+{{ end }}
