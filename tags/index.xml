@@ -6,13 +6,34 @@
     <description>Recent content in Tags on Sid&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.thefossrant.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dns</title>
+      <link>https://blog.thefossrant.com/tags/dns/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/tags/dns/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Homelab</title>
       <link>https://blog.thefossrant.com/tags/homelab/</link>
-      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.thefossrant.com/tags/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>https://blog.thefossrant.com/tags/networking/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/tags/networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pihole</title>
+      <link>https://blog.thefossrant.com/tags/pihole/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/tags/pihole/</guid>
       <description></description>
     </item>
     <item>
