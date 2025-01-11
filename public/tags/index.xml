@@ -6,20 +6,27 @@
     <description>Recent content in Tags on Sid&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.thefossrant.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dns</title>
-      <link>https://blog.thefossrant.com/tags/dns/</link>
-      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.thefossrant.com/tags/dns/</guid>
+      <title>Data</title>
+      <link>https://blog.thefossrant.com/tags/data/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/tags/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Homelab</title>
       <link>https://blog.thefossrant.com/tags/homelab/</link>
-      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.thefossrant.com/tags/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dns</title>
+      <link>https://blog.thefossrant.com/tags/dns/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/tags/dns/</guid>
       <description></description>
     </item>
     <item>

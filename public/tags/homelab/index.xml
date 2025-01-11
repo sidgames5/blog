@@ -6,8 +6,15 @@
     <description>Recent content in Homelab on Sid&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.thefossrant.com/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dealing with a corrupted Raspberry Pi</title>
+      <link>https://blog.thefossrant.com/posts/11.-dealing-with-a-corrupted-raspberry-pi/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.thefossrant.com/posts/11.-dealing-with-a-corrupted-raspberry-pi/</guid>
+      <description>&lt;p&gt;It was a chilly Monday morning. School was cancelled due to the ice on the roads. I thought it would be a perfect day to get some stuff done in my homelab. But as they say, anything that can go wrong will go wrong.&lt;/p&gt;&#xA;&lt;h2 id=&#34;first-signs&#34;&gt;First signs&lt;/h2&gt;&#xA;&lt;p&gt;In the morning I installed Pi-hole on my raspberry pi. You can read [my blog post]([[10. Setting up a second Pi-hole]]) about that. After I deployed the Pi-hole, I tried to install another app to deploy something else. When I was installing that, I was getting errors about some syntax error in a file. I opened the file in question using vim and it looked normal. I found a backup of that file and I copied the backup to the main file and everything worked.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Setting up a second Pi-Hole</title>
       <link>https://blog.thefossrant.com/posts/10.-setting-up-a-second-pi-hole/</link>
