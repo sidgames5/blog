@@ -1,0 +1,24 @@
+---
+title: Dealing with a corrupted Raspberry Pi
+date: 2025-01-11
+draft: false
+tags:
+  - homelab
+  - data
+---
+It was a chilly Monday morning. School was cancelled due to the ice on the roads. I thought it would be a perfect day to get some stuff done in my homelab. But as they say, anything that can go wrong will go wrong.
+
+## First signs
+In the morning I installed Pi-hole on my raspberry pi. You can read [my blog post](https://blog.thefossrant.com/posts/10.-setting-up-a-second-pi-hole/) about that. After I deployed the Pi-hole, I tried to install another app to deploy something else. When I was installing that, I was getting errors about some syntax error in a file. I opened the file in question using vim and it looked normal. I found a backup of that file and I copied the backup to the main file and everything worked.
+
+## Chaos erupted
+A few hours later, I went to add a new entry in my reverse proxy config. I logged on to the pi and opened the file using vim and things did not look right. The file was full of random symbols and no sign of the reverse proxy config. This prompted me to run a read-only fsck on the drive, of course it detected errors. I never thought something like this would happen and I never backed up my reverse proxy config so I tried to search the pi for any backup with no luck. I decided to try and restart caddy (my reverse proxy) through a web interface to see what would happen. When I pressed the restart button, I got an error. I went back to the terminal and ran a docker command, and I got a segmentation fault. That definitely can't be good. I tried to reinstall docker using apt and guess what? Segmentation fault. That's when I knew what happened. I jumped out of my chair and sprinted to the server room where I unplugged the pi. I took the SD card back to my computer and plugged it in. I ran fsck on it but it couldn't even detect an ext4 file system. The corruption was that bad. All of the data was gone.
+
+## Aftermath
+The impact of this failure was quite large. The reverse proxy is the only service exposed to the internet. This means that my Nextcloud instance was down. This was major as basically my entire digital life revolves around Nextcloud.
+
+## Recovery
+After realizing that this was no simple fix, I scrambled to install caddy on my main server. Nextcloud was running on port 80 and 443 so I had to change the ports it was running on. I managed to rewrite my caddy config and recover my services. I think I will keep caddy running on my main server in the future and keep my raspberry pi for less important things.
+
+## Long-term plan
+So caddy will be staying on my main server. I have re-flashed the raspberry pi with the operating system and it will soon return to the server room. I plan to implement backups for configuration files using Git. Even though hard drives are very reliable, I am still considering making a weekly backup of my Nextcloud data to a portable hard drive.
